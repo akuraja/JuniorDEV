@@ -1,0 +1,138 @@
+/* App.css */
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #e0f0e8;
+  border: 2px solid #73c6b6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #3c8d70;
+  text-align: center;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: #ff8a5c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #3c8d70;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-submit {
+  text-align: right;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.animal-item {
+  background-color: #faf7f0;
+  border: 1px solid #73c6b6;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.animal-name {
+  font-weight: bold;
+  color: #3c8d70;
+}
+
+.animal-type {
+  color: #666;
+}
+
+.admin-message {
+  color: #3f51b5;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.authenticated-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-message {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.admin-message {
+  font-size: 16px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
